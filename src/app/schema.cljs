@@ -17,6 +17,10 @@
    {:title "Dev Apps Switcher",
     :repo "https://github.com/jimengio/dev-switcher",
     :ui "http://fe.jimu.io/dev-switcher/",
+    :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+   {:title "Jimo Icons",
+    :repo "https://github.com/jimengio/jimo-icons",
+    :ui "http://fe.jimu.io/jimo-icons/",
     :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}])
 
 (def store {:states {}, :content ""})

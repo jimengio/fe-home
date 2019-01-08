@@ -2179,6 +2179,40 @@
            }
           }
          }
+         "y" {
+          :type :expr, :by "root", :at 1546507392178, :id "mkwTR7Y1a"
+          :data {
+           "T" {:type :leaf, :by "root", :at 1546507392769, :text "{}", :id "43m0qM1P3z"}
+           "j" {
+            :type :expr, :by "root", :at 1546507393048, :id "MoUrCnRUCJ"
+            :data {
+             "T" {:type :leaf, :by "root", :at 1546507396975, :text ":title", :id "I2xdbPpLXg"}
+             "j" {:type :leaf, :by "root", :at 1546952410829, :text "\"Jimo Icons", :id "tzq5agdcme"}
+            }
+           }
+           "r" {
+            :type :expr, :by "root", :at 1546507402283, :id "V60N6o4I9X"
+            :data {
+             "T" {:type :leaf, :by "root", :at 1546507405486, :text ":repo", :id "V60N6o4I9Xleaf"}
+             "j" {:type :leaf, :by "root", :at 1546952415830, :text "\"https://github.com/jimengio/jimo-icons", :id "s9cz7-MUc"}
+            }
+           }
+           "v" {
+            :type :expr, :by "root", :at 1546507418104, :id "FWjPRpyojH"
+            :data {
+             "T" {:type :leaf, :by "root", :at 1546507427500, :text ":ui", :id "FWjPRpyojHleaf"}
+             "j" {:type :leaf, :by "root", :at 1546952419822, :text "\"http://fe.jimu.io/jimo-icons/", :id "oQIWNb_gm"}
+            }
+           }
+           "x" {
+            :type :expr, :by "root", :at 1546507437855, :id "sObTdKw6d"
+            :data {
+             "T" {:type :leaf, :by "root", :at 1546507439118, :text ":logo", :id "sObTdKw6dleaf"}
+             "j" {:type :leaf, :by "root", :at 1546507454987, :text "\"http://cdn.tiye.me/logo/jimeng-360x360.png", :id "fS68fpgMw"}
+            }
+           }
+          }
+         }
         }
        }
       }
