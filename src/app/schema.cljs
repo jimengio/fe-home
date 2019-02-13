@@ -25,6 +25,10 @@
    {:title "Nav Code Generator",
     :repo "https://github.com/jimengio/nav-code-generator",
     :ui "http://fe.jimu.io/nav-code-generator/",
+    :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+   {:title "Ruled Router Viewer",
+    :repo "https://github.com/jimengio/ruled-router-viewer",
+    :ui "http://fe.jimu.io/ruled-router-viewer/",
     :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}])
 
 (def store {:states {}, :content ""})
