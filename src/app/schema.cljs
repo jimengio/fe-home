@@ -41,6 +41,11 @@
     :repo "https://github.com/jimengio/shopfloor-simulator",
     :ui "http://fe.jimu.io/shopfloor-simulator/",
     :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
-    :kind :devtool}])
+    :kind :devtool}
+   {:title "Mescal UI",
+    :repo "https://github.com/jimengio/mescal-ui",
+    :ui "http://fe.jimu.io/mescal-ui/",
+    :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
+    :kind :docs}])
 
 (def store {:states {}, :content ""})
