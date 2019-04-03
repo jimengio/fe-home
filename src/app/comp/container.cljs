@@ -36,9 +36,5 @@
       :level 1}
      (fn [d! op param options]
        (when dev? (println "Action" op param (pr-str options)))
-       (case op
-         :input (d! :input (:value options))
-         :submit (when-not (string/blank? (:input store)) (d! :submit nil))
-         :remove (d! :remove param)
-         (do (println "Unknown op:" op)))))
+       (case op :demo (println) :repo nil (do (println "Unknown op:" op)))))
     (when dev? (cursor-> :reel comp-reel states reel {})))))

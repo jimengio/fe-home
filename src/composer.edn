@@ -13,29 +13,31 @@
     }
    }
    :markup {
-    :id "system", :type :box, :layout :column
-    :props {}
-    :attrs {}
-    :presets #{}
-    :style {"background-color" "hsl(0, 0%, 97%)", "padding" "8px", "width" "200px", "border" "1px solid hsl(0, 0%, 90%)", "display" "inline-flex", "margin" "16px"}
+    :layout :column, :type :element, :id "system"
     :children {
      "T" {
-      :id "T", :type :link, :layout nil
-      :props {"text" "@:title", "href" "@:ui", "@:param" "@:ui"}
-      :attrs {}
+      :id "T", :type :text, :layout nil
+      :props {"@:param" "@:ui", "value" "@:title"}
+      :attrs {"tab-index" "-1"}
       :presets #{:font-fancy}
-      :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "text-decoration" "none"}
+      :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "outline" "none"}
       :children {}
      }
      "j" {
-      :id "j", :type :link, :layout nil
-      :props {"text" "\"repo", "href" "@:repo", "param" "@:repo"}
-      :attrs {"target" "\"_blank"}
-      :presets #{}
-      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)"}
+      :layout nil, :type :link, :id "j"
       :children {}
+      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none"}
+      :presets #{}
+      :event {}
+      :attrs {"target" "\"_blank", "tab-index" "-1"}
+      :props {"text" "\"repo", "href" "@:repo", "param" "@:repo"}
      }
     }
+    :style {"background-color" "hsl(0, 0%, 97%)", "padding" "8px 12px", "width" "200px", "border" "1px solid hsl(0, 0%, 90%)", "display" "inline-flex", "margin" "16px", "text-decoration" "none"}
+    :presets #{}
+    :event {}
+    :attrs {"tab-index" "0", "href" "@:ui"}
+    :props {"name" "\"a"}
    }
   }
   "sT5xB62uu" {
