@@ -9,62 +9,36 @@
             [reel.comp.reel :refer [comp-reel]]
             [respo-md.comp.md :refer [comp-md]]
             [app.config :refer [dev?]]
-            [app.schema :as schema])
+            [app.schema :as schema]
+            [composer.core :refer [render-markup extract-templates]]
+            [shadow.resource :refer [inline]]
+            [cljs.reader :refer [read-string]]
+            [clojure.string :as string])
   (:require-macros [clojure.core.strint :refer [<<]]))
-
-(defcomp
- comp-project
- (project)
- (a
-  {:class-name "project",
-   :style (merge
-           ui/column
-           {:border (<< "1px solid ~(hsl 0 0 90)"),
-            :padding 8,
-            :background-color (hsl 0 0 97),
-            :margin 16,
-            :display :inline-flex,
-            :min-width 200,
-            :text-decoration :none}),
-   :href (:ui project)}
-  (div
-   {}
-   (span
-    {:style {:font-size 16, :font-family ui/font-fancy, :color (hsl 200 80 50)},
-     :inner-text (:title project),
-     :tab-index nil}))
-  (div
-   {}
-   (span
-    {:style {:color (hsl 0 0 50), :font-size 13, :cursor :pointer},
-     :on-click (fn [e d! m!] (.open js/window (:repo project))),
-     :inner-text "Repo"}))))
-
-(def style-header
-  {:font-family ui/font-fancy, :font-size 32, :color (hsl 0 0 88), :margin-top 24})
 
 (defcomp
  comp-container
  (reel)
- (let [store (:store reel), states (:states store)]
+ (let [store (:store reel)
+       states (:states store)
+       templates (extract-templates (read-string (inline "composer.edn")))]
    (div
     {:style (merge ui/global {:padding 40})}
-    (div {:style style-header} (<> "DevTools"))
-    (list->
-     {:style {}}
-     (->> schema/projects
-          (filter (fn [x] (= :devtool (:kind x))))
-          (map (fn [project] [(:repo project) (comp-project project)]))))
-    (div {:style style-header} (<> "Docs"))
-    (list->
-     {:style {}}
-     (->> schema/projects
-          (filter (fn [x] (= :docs (:kind x))))
-          (map (fn [project] [(:repo project) (comp-project project)]))))
-    (div {:style style-header} (<> "Router"))
-    (list->
-     {:style {}}
-     (->> schema/projects
-          (filter (fn [x] (= :router (:kind x))))
-          (map (fn [project] [(:repo project) (comp-project project)]))))
+    (render-markup
+     (get templates "container")
+     {:data [{:title "DevTools",
+              :projects (->> schema/projects (filter (fn [x] (= :devtool (:kind x)))))}
+             {:title "Docs",
+              :projects (->> schema/projects (filter (fn [x] (= :docs (:kind x)))))}
+             {:title "Router",
+              :projects (->> schema/projects (filter (fn [x] (= :router (:kind x)))))}],
+      :templates templates,
+      :level 1}
+     (fn [d! op param options]
+       (when dev? (println "Action" op param (pr-str options)))
+       (case op
+         :input (d! :input (:value options))
+         :submit (when-not (string/blank? (:input store)) (d! :submit nil))
+         :remove (d! :remove param)
+         (do (println "Unknown op:" op)))))
     (when dev? (cursor-> :reel comp-reel states reel {})))))
