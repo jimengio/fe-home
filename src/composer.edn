@@ -13,31 +13,48 @@
     }
    }
    :markup {
-    :layout :column, :type :element, :id "system"
+    :id "C8KZ0XcAY", :type :box, :layout nil
+    :props {}
+    :attrs {}
+    :presets #{}
+    :style {"position" "relative", "margin" "8px 12px", "display" "inline-block", "width" "200px"}
     :children {
      "T" {
-      :id "T", :type :text, :layout nil
-      :props {"@:param" "@:ui", "value" "@:title"}
-      :attrs {"tab-index" "-1"}
-      :presets #{:font-fancy}
-      :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "outline" "none"}
-      :children {}
+      :layout :column, :type :element, :id "system"
+      :children {
+       "T" {
+        :id "T", :type :text, :layout nil
+        :props {"@:param" "@:ui", "value" "@:title"}
+        :attrs {"tab-index" "-1"}
+        :presets #{:font-fancy}
+        :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "outline" "none"}
+        :children {}
+       }
+       "j" {
+        :id "j", :type :element, :layout nil
+        :props {"name" "\"span"}
+        :attrs {}
+        :presets #{}
+        :style {"height" "24px"}
+        :children {}
+       }
+      }
+      :style {"background-color" "hsl(0, 0%, 97%)", "border" "1px solid hsl(0, 0%, 90%)", "text-decoration" "none", "width" "100%", "padding" "8px 16px"}
+      :presets #{}
+      :event {}
+      :attrs {"tab-index" "0", "href" "@:ui"}
+      :props {"name" "\"a"}
      }
      "j" {
       :layout nil, :type :link, :id "j"
       :children {}
-      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none"}
+      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none", "position" "absolute", "bottom" "8px", "left" "16px", "margin" "0px"}
       :presets #{}
       :event {}
-      :attrs {"target" "\"_blank", "tab-index" "-1"}
-      :props {"text" "\"repo", "href" "@:repo", "param" "@:repo"}
+      :attrs {"target" "\"_blank", "tab-index" "-1", "inner-text" "\"repo"}
+      :props {"text" "\"repo", "href" "@:repo"}
      }
     }
-    :style {"background-color" "hsl(0, 0%, 97%)", "padding" "8px 12px", "width" "200px", "border" "1px solid hsl(0, 0%, 90%)", "display" "inline-flex", "margin" "16px", "text-decoration" "none"}
-    :presets #{}
-    :event {}
-    :attrs {"tab-index" "0", "href" "@:ui"}
-    :props {"name" "\"a"}
    }
   }
   "sT5xB62uu" {
