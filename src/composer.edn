@@ -26,8 +26,8 @@
         :id "T", :type :text, :layout nil
         :props {"@:param" "@:ui", "value" "@:title"}
         :attrs {"tab-index" "-1"}
-        :presets #{:font-fancy}
-        :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "outline" "none"}
+        :presets #{}
+        :style {"font-size" "16px", "font-weight" "300", "color" "hsl(200, 80%, 50%)", "outline" "none", "font-family" "Josefin Sans, Helvetica neue, Arial, sans-serif"}
         :children {}
        }
        "j" {
