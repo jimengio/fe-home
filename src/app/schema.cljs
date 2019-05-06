@@ -56,6 +56,11 @@
     :repo "https://github.com/jimengio/rough-table",
     :ui "http://fe.jimu.io/rough-table/",
     :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
+    :kind :docs}
+   {:title "Meson Display",
+    :repo "https://github.com/jimengio/meson-display",
+    :ui "http://fe.jimu.io/meson-display/",
+    :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
     :kind :docs}])
 
 (def store {:states {}, :content ""})
