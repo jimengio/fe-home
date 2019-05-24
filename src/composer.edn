@@ -17,11 +17,29 @@
     :props {}
     :attrs {}
     :presets #{}
-    :style {"position" "relative", "margin" "8px 12px", "display" "inline-block", "width" "200px"}
+    :style {"position" "relative", "margin" "12px 12px", "display" "inline-block", "width" "240px"}
     :children {
      "T" {
-      :layout :column, :type :element, :id "system"
+      :layout :row, :type :element, :id "system"
       :children {
+       "D" {
+        :type :image, :layout nil
+        :props {"src" "@:logo", "mode" ":contain", "width" "64"}
+        :attrs {}
+        :presets #{}
+        :style {}
+        :event {}
+        :children {}
+       }
+       "L" {
+        :type :space, :layout nil
+        :props {"width" "12"}
+        :attrs {}
+        :presets #{}
+        :style {}
+        :event {}
+        :children {}
+       }
        "T" {
         :id "T", :type :text, :layout nil
         :props {"@:param" "@:ui", "value" "@:title"}
@@ -39,7 +57,7 @@
         :children {}
        }
       }
-      :style {"background-color" "hsl(0, 0%, 97%)", "border" "1px solid hsl(0, 0%, 90%)", "text-decoration" "none", "width" "100%", "padding" "8px 16px"}
+      :style {"background-color" "hsl(0, 0%, 97%)", "border" "1px solid hsl(0, 0%, 90%)", "text-decoration" "none", "width" "100%", "padding" "8px 8px"}
       :presets #{}
       :event {}
       :attrs {"tab-index" "0", "href" "@:ui"}
@@ -48,7 +66,7 @@
      "j" {
       :layout nil, :type :link, :id "j"
       :children {}
-      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none", "position" "absolute", "bottom" "8px", "left" "16px", "margin" "0px"}
+      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none", "position" "absolute", "bottom" "8px", "left" "88px", "margin" "0px"}
       :presets #{}
       :event {}
       :attrs {"target" "\"_blank", "tab-index" "-1", "inner-text" "\"repo"}
@@ -141,7 +159,7 @@
       :props {"value" "@"}
       :attrs {}
       :presets #{}
-      :style {}
+      :style {"max-width" "100%"}
       :children {
        "T" {
         :id "T", :type :template, :layout nil

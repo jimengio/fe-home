@@ -26,14 +26,7 @@
     {:style (merge ui/global {:padding 40})}
     (render-markup
      (get templates "container")
-     {:data [{:title "DevTools",
-              :projects (->> schema/projects (filter (fn [x] (= :devtool (:kind x)))))}
-             {:title "Docs",
-              :projects (->> schema/projects (filter (fn [x] (= :docs (:kind x)))))}
-             {:title "Router",
-              :projects (->> schema/projects (filter (fn [x] (= :router (:kind x)))))}],
-      :templates templates,
-      :level 1}
+     {:data schema/projects, :templates templates, :level 1}
      (fn [d! op param options]
        (when dev? (println "Action" op param (pr-str options)))
        (case op :demo (println) :repo nil (do (println "Unknown op:" op)))))
