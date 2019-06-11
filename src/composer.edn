@@ -100,8 +100,8 @@
       :id "T", :type :text, :layout nil
       :props {"value" "@:title"}
       :attrs {}
-      :presets #{:font-fancy}
-      :style {"color" "hsl(0, 0%, 88%)", "font-size" "32px", "font-weight" "300"}
+      :presets #{}
+      :style {"color" "hsl(0, 0%, 88%)", "font-size" "32px", "font-weight" "300", "font-family" "Josefin Sans, Helvetica neue, Arial, sans-serif"}
       :children {}
      }
      "j" {
@@ -176,11 +176,21 @@
   }
  }
  :settings {
-  :colors {
-   "B3t5OxuJq" {:id "B3t5OxuJq", :name "link", :color "hsl(200, 80%, 50%)", :group "font"}
-   "_Oi3la2Lw" {:id "_Oi3la2Lw", :name "bg", :color "hsl(0, 0%, 97%)", :group "theme"}
-   "nATXN-MR0" {:id "nATXN-MR0", :name "title", :color "hsl(0, 0%, 88%)", :group "font"}
-   "wYLgglKgc" {:id "wYLgglKgc", :name "name", :color "hsl(0, 0%, 50%)", :group "font"}
+  :color-groups {
+   "font" {
+    :id "font", :name "font"
+    :colors {
+     "B3t5OxuJq" {:id "B3t5OxuJq", :name "link", :color "hsl(200, 80%, 50%)", :group "font"}
+     "nATXN-MR0" {:id "nATXN-MR0", :name "title", :color "hsl(0, 0%, 88%)", :group "font"}
+     "wYLgglKgc" {:id "wYLgglKgc", :name "name", :color "hsl(0, 0%, 50%)", :group "font"}
+    }
+   }
+   "theme" {
+    :id "theme", :name "theme"
+    :colors {
+     "_Oi3la2Lw" {:id "_Oi3la2Lw", :name "bg", :color "hsl(0, 0%, 97%)", :group "theme"}
+    }
+   }
   }
  }
 }
