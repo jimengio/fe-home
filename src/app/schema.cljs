@@ -11,7 +11,7 @@
                 :repo "https://github.com/jimengio/mescal-ui",
                 :ui "http://fe.jimu.io/mescal-ui/",
                 :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
-               {:title "Meson From",
+               {:title "Meson Form",
                 :repo "https://github.com/jimengio/meson-form",
                 :ui "http://fe.jimu.io/meson-form/",
                 :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
