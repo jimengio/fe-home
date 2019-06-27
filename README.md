@@ -2,11 +2,11 @@
 Fe Home
 ----
 
-> Home page.
+> Index page.
 
 ### Workflow
 
-Workflow https://github.com/mvc-works/calcit-workflow
+Workflow https://github.com/mvc-works/composer-workflow
 
 ### License
 
