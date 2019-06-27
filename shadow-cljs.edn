@@ -10,7 +10,7 @@
                 [respo/markdown         "0.2.4"]
                 [respo/feather          "0.1.1"]
                 [respo/reel             "0.3.5"]
-                [respo/composer         "0.1.17"]
+                [respo/composer         "0.1.18"]
                 [cumulo/util            "0.1.10"]
                 [org.clojure/core.incubator "0.1.4"]]
  :repositories {"central" {:url "https://maven.aliyun.com/nexus/content/groups/public/"}
@@ -29,8 +29,4 @@
           :page {:target :node-script
                  :output-to "target/page.js"
                  :main app.page/main!
-                 :devtools {:after-load app.page/main!}}
-          :upload {:target :node-script
-                   :output-to "target/upload.js"
-                   :main app.upload/main!
-                   :devtools {:after-load app.upload/main!}}}}
+                 :devtools {:after-load app.page/main!}}}}
