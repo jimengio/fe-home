@@ -36,6 +36,10 @@
                 :repo "https://github.com/jimengio/dev-switcher",
                 :ui "http://fe.jimu.io/dev-switcher/",
                 :logo "http://cdn.tiye.me/logo/dev-switcher.png"}
+               {:title "VSCode Snippets",
+                :repo "https://github.com/jimengio/jm-snippets",
+                :ui "https://github.com/jimengio/jm-snippets",
+                :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
                {:title "Shopfloor Simulator",
                 :repo "https://github.com/jimengio/shopfloor-simulator",
                 :ui "http://fe.jimu.io/shopfloor-simulator/",
