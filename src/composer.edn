@@ -17,14 +17,14 @@
     :props {}
     :attrs {}
     :presets #{}
-    :style {"position" "relative", "margin" "12px 12px", "display" "inline-block", "width" "240px"}
+    :style {"position" "relative", "margin" "12px 12px", "display" "inline-block", "min-width" "200px"}
     :children {
      "T" {
       :layout :row, :type :element, :id "system"
       :children {
        "D" {
         :type :image, :layout nil
-        :props {"src" "@:logo", "mode" ":contain", "width" "64"}
+        :props {"src" "@:logo", "mode" ":contain", "width" "48", "height" "48"}
         :attrs {}
         :presets #{}
         :style {}
@@ -57,7 +57,7 @@
         :children {}
        }
       }
-      :style {"background-color" "hsl(0, 0%, 97%)", "border" "1px solid hsl(0, 0%, 90%)", "text-decoration" "none", "width" "100%", "padding" "8px 8px"}
+      :style {"background-color" "hsl(0, 0%, 98%)", "border" "1px solid hsl(0, 0%, 95%)", "text-decoration" "none", "width" "100%", "padding" "8px 8px", "min-height" "72px"}
       :presets #{}
       :event {}
       :attrs {"tab-index" "0", "href" "@:ui"}
@@ -66,7 +66,7 @@
      "j" {
       :layout nil, :type :link, :id "j"
       :children {}
-      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none", "position" "absolute", "bottom" "8px", "left" "88px", "margin" "0px"}
+      :style {"text-decoration" "none", "color" "hsl(0, 0%, 50%)", "user-select" "none", "outline" "none", "position" "absolute", "bottom" "8px", "left" "68px", "margin" "0px"}
       :presets #{}
       :event {}
       :attrs {"target" "\"_blank", "tab-index" "-1", "inner-text" "\"repo"}
@@ -188,7 +188,7 @@
    "theme" {
     :id "theme", :name "theme"
     :colors {
-     "_Oi3la2Lw" {:id "_Oi3la2Lw", :name "bg", :color "hsl(0, 0%, 97%)", :group "theme"}
+     "_Oi3la2Lw" {:id "_Oi3la2Lw", :name "bg", :color "hsl(0, 0%, 98%)", :group "theme", :group-id "theme"}
     }
    }
   }

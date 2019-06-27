@@ -2162,6 +2162,40 @@
                  }
                 }
                }
+               "w" {
+                :type :expr, :by "rJG4IHzWf", :at 1558673666656, :id "zh6hzUZwUa"
+                :data {
+                 "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673666656, :text "{}", :id "SwjYG3rLd-"}
+                 "j" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673666656, :id "K3Jhdc5GE0"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673666656, :text ":title", :id "H3sDHVF2w8"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1561609687714, :text "\"VSCode Snippets", :id "gcSI4NDfJL"}
+                  }
+                 }
+                 "r" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673666656, :id "cTcGmy3FXX"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673666656, :text ":repo", :id "rwbjZNSFDI"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1561609695187, :text "\"https://github.com/jimengio/jm-snippets", :id "LIA-StGHOb"}
+                  }
+                 }
+                 "v" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673666656, :id "tVwHbcTpzY"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673666656, :text ":ui", :id "odoU40lOE_"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1561609988742, :text "\"https://github.com/jimengio/jm-snippets", :id "M3XMpLmr-D"}
+                  }
+                 }
+                 "x" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673666656, :id "B2ijzAoLpd"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673666656, :text ":logo", :id "hEQgU1fI5-"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1561609942673, :text "\"http://cdn.tiye.me/logo/jimeng-360x360.png", :id "0K5XSCp4mX"}
+                  }
+                 }
+                }
+               }
                "x" {
                 :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "G1zlDGMZBg"
                 :data {
