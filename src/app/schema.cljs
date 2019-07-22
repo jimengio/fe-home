@@ -22,6 +22,10 @@
                {:title "Meson Display",
                 :repo "https://github.com/jimengio/meson-display",
                 :ui "http://fe.jimu.io/meson-display/",
+                :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+               {:title "Ipeca UI",
+                :repo "https://github.com/jimengio/ipeca-ui",
+                :ui "http://fe.jimu.io/ipeca-ui/",
                 :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
    {:title "DevTools",
     :projects [{:title "Locales Editor",

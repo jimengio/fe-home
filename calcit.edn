@@ -2035,6 +2035,40 @@
                  }
                 }
                }
+               "yT" {
+                :type :expr, :by "rJG4IHzWf", :at 1559041212294, :id "_dPAK7rqG"
+                :data {
+                 "T" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text "{}", :id "eiFx9I3DagA"}
+                 "j" {
+                  :type :expr, :by "rJG4IHzWf", :at 1559041212294, :id "sCOVOq-SrDj"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text ":title", :id "NGsPtNeOigo"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1563790542439, :text "\"Ipeca UI", :id "68DROfGbuHD"}
+                  }
+                 }
+                 "r" {
+                  :type :expr, :by "rJG4IHzWf", :at 1559041212294, :id "-7IGYhoMW8q"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text ":repo", :id "5Cj6yQ57wmp"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1563790549439, :text "\"https://github.com/jimengio/ipeca-ui", :id "6Y82QpW1Cpr"}
+                  }
+                 }
+                 "v" {
+                  :type :expr, :by "rJG4IHzWf", :at 1559041212294, :id "HbPX5ojTlUk"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text ":ui", :id "Ia8Xq7HRu5H"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1563790554869, :text "\"http://fe.jimu.io/ipeca-ui/", :id "RgFmmpCH4Cy"}
+                  }
+                 }
+                 "x" {
+                  :type :expr, :by "rJG4IHzWf", :at 1559041212294, :id "VbrCOjugC7N"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text ":logo", :id "m9P2SsYEqcH"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1559041212294, :text "\"http://cdn.tiye.me/logo/jimeng-360x360.png", :id "vsmMVcNheqy"}
+                  }
+                 }
+                }
+               }
               }
              }
             }
