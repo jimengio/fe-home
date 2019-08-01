@@ -2264,6 +2264,40 @@
                  }
                 }
                }
+               "y" {
+                :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "4hdORfZKE"
+                :data {
+                 "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673683898, :text "{}", :id "PLhOtJbeFj"}
+                 "j" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "8dj7e-FjnY"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673683898, :text ":title", :id "GnVGL5uved"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1564643000111, :text "\"QRCode Shelf", :id "Y78JD7WIu6"}
+                  }
+                 }
+                 "r" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "ShJYSnmqkq"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673683898, :text ":repo", :id "gMG4Puws0U"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1564643005516, :text "\"https://github.com/jimengio/qrcode-shelf", :id "1pg-DFoDvh"}
+                  }
+                 }
+                 "v" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "GuGAyAFsNY"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673683898, :text ":ui", :id "qVMgWT9vbh"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1564643009061, :text "\"http://fe.jimu.io/qrcode-shelf/", :id "rEu_gICn0Q"}
+                  }
+                 }
+                 "x" {
+                  :type :expr, :by "rJG4IHzWf", :at 1558673683898, :id "l_dwZWrqyU"
+                  :data {
+                   "T" {:type :leaf, :by "rJG4IHzWf", :at 1558673683898, :text ":logo", :id "q8nx_D9NlL"}
+                   "j" {:type :leaf, :by "rJG4IHzWf", :at 1564643019277, :text "\"http://cdn.tiye.me/logo/jimeng-360x360.png", :id "Hhqx0SWvNm"}
+                  }
+                 }
+                }
+               }
               }
              }
             }

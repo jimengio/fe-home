@@ -47,7 +47,11 @@
                {:title "Shopfloor Simulator",
                 :repo "https://github.com/jimengio/shopfloor-simulator",
                 :ui "http://fe.jimu.io/shopfloor-simulator/",
-                :logo "http://cdn.tiye.me/logo/shopfloor-simulator.png"}]}
+                :logo "http://cdn.tiye.me/logo/shopfloor-simulator.png"}
+               {:title "QRCode Shelf",
+                :repo "https://github.com/jimengio/qrcode-shelf",
+                :ui "http://fe.jimu.io/qrcode-shelf/",
+                :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
    {:title "Icons",
     :projects [{:title "Jimo Icons",
                 :repo "https://github.com/jimengio/jimo-icons",
