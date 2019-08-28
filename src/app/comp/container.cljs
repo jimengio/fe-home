@@ -26,7 +26,7 @@
     {:style (merge ui/global {:padding 40})}
     (render-markup
      (get templates "container")
-     {:data schema/projects, :templates templates, :level 1}
+     {:data (read-string (inline "projects.edn")), :templates templates, :level 1}
      (fn [d! op param options]
        (when dev? (println "Action" op param (pr-str options)))
        (case op :demo (println) :repo nil (do (println "Unknown op:" op)))))
