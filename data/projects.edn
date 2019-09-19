@@ -19,6 +19,10 @@
               :repo "https://github.com/jimengio/dropdown",
               :ui "http://fe.jimu.io/dropdown/",
               :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+             {:title "Meson Modal",
+              :repo "https://github.com/jimengio/meson-modal",
+              :ui "http://fe.jimu.io/meson-modal/",
+              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
              {:title "Image Viewer",
               :repo "https://github.com/jimengio/image-viewer",
               :ui "http://fe.jimu.io/image-viewer/",
