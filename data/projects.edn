@@ -70,9 +70,9 @@
               :ui "http://fe.jimu.io/fontawesome-finder/",
               :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
  {:title "Router",
-  :projects [{:title "Nav Code Generator",
-              :repo "https://github.com/jimengio/nav-code-generator",
-              :ui "http://fe.jimu.io/nav-code-generator/",
+  :projects [{:title "Router Code Generator",
+              :repo "https://github.com/jimengio/router-code-generator",
+              :ui "http://fe.jimu.io/router-code-generator/",
               :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
               :kind :router}
              {:title "Ruled Router Viewer",
