@@ -1,45 +1,39 @@
-[{:title "UI Libraries",
-  :projects [{:title "Jasmin UI",
-              :repo "https://github.com/jimengio/jasmin-ui",
-              :ui "http://fe.jimu.io/jasmin-ui/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
-             {:title "Mescal UI",
-              :repo "https://github.com/jimengio/mescal-ui",
-              :ui "http://fe.jimu.io/mescal-ui/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
-             {:title "Meson Form",
+[{:title "Components",
+  :projects [{:title "Meson Form",
               :repo "https://github.com/jimengio/meson-form",
-              :ui "http://fe.jimu.io/meson-form/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/meson-form/"}
              {:title "Rough Table",
               :repo "https://github.com/jimengio/rough-table",
-              :ui "http://fe.jimu.io/rough-table/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/rough-table/"}
              {:title "Dropdown",
               :repo "https://github.com/jimengio/dropdown",
-              :ui "http://fe.jimu.io/dropdown/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/dropdown/"}
              {:title "Meson Modal",
               :repo "https://github.com/jimengio/meson-modal",
-              :ui "http://fe.jimu.io/meson-modal/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/meson-modal/"}
              {:title "Image Viewer",
               :repo "https://github.com/jimengio/image-viewer",
-              :ui "http://fe.jimu.io/image-viewer/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/image-viewer/"}
              {:title "Meson Display",
               :repo "https://github.com/jimengio/meson-display",
-              :ui "http://fe.jimu.io/meson-display/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/meson-display/"}
+             {:title "Code Rule Editor",
+              :repo "https://github.com/jimengio/code-rule-editor",
+              :ui "http://fe.jimu.io/code-rule-editor/"}]}
+ {:title "UI Libraries",
+  :projects [{:title "Jasmin UI",
+              :repo "https://github.com/jimengio/jasmin-ui",
+              :ui "http://fe.jimu.io/jasmin-ui/"}
+             {:title "Mescal UI",
+              :repo "https://github.com/jimengio/mescal-ui",
+              :ui "http://fe.jimu.io/mescal-ui/"}
              {:title "Ipeca UI",
               :repo "https://github.com/jimengio/ipeca-ui",
-              :ui "http://fe.jimu.io/ipeca-ui/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
+              :ui "http://fe.jimu.io/ipeca-ui/"}]}
  {:title "DevTools",
   :projects [{:title "Locales Editor",
               :repo "https://github.com/jimengio/locales-editor",
-              :ui "http://fe.jimu.io/locales-editor/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/locales-editor/"}
              {:title "Rebase Hell",
               :repo "https://github.com/jimengio/rebase-hell",
               :ui "http://fe.jimu.io/rebase-hell/",
@@ -50,32 +44,26 @@
               :logo "http://cdn.tiye.me/logo/dev-switcher.png"}
              {:title "VSCode Snippets",
               :repo "https://github.com/jimengio/jm-snippets",
-              :ui "https://github.com/jimengio/jm-snippets",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "https://github.com/jimengio/jm-snippets"}
              {:title "Shopfloor Simulator",
               :repo "https://github.com/jimengio/shopfloor-simulator",
               :ui "http://fe.jimu.io/shopfloor-simulator/",
               :logo "http://cdn.tiye.me/logo/shopfloor-simulator.png"}
              {:title "QRCode Shelf",
               :repo "https://github.com/jimengio/qrcode-shelf",
-              :ui "http://fe.jimu.io/qrcode-shelf/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
+              :ui "http://fe.jimu.io/qrcode-shelf/"}]}
  {:title "Icons",
   :projects [{:title "Jimo Icons",
               :repo "https://github.com/jimengio/jimo-icons",
-              :ui "http://fe.jimu.io/jimo-icons/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}
+              :ui "http://fe.jimu.io/jimo-icons/"}
              {:title "FontAwesome finder",
               :repo "https://github.com/jimengio/fontawesome-finder",
-              :ui "http://fe.jimu.io/fontawesome-finder/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}
+              :ui "http://fe.jimu.io/fontawesome-finder/"}]}
  {:title "Router",
   :projects [{:title "Router Code Generator",
               :repo "https://github.com/jimengio/router-code-generator",
               :ui "http://fe.jimu.io/router-code-generator/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png",
               :kind :router}
              {:title "Ruled Router Viewer",
               :repo "https://github.com/jimengio/ruled-router-viewer",
-              :ui "http://fe.jimu.io/ruled-router-viewer/",
-              :logo "http://cdn.tiye.me/logo/jimeng-360x360.png"}]}]
+              :ui "http://fe.jimu.io/ruled-router-viewer/"}]}]

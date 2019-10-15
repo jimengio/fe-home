@@ -29,3 +29,13 @@ body * {
 ::-webkit-resizer{
   background-color:transparent;
 }
+
+.touch-item:hover {
+  transform: scale(1.03);
+  transition-duration: 200ms;
+}
+
+.touch-item:active {
+  transform: scale(1.06);
+  transition-duration: 0ms;
+}
