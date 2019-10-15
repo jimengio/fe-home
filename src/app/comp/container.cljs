@@ -4,13 +4,12 @@
             [respo-ui.core :as ui]
             [respo.core
              :refer
-             [defcomp cursor-> action-> list-> a <> div button textarea span]]
+             [defcomp cursor-> action-> list-> a <> div button textarea span img]]
             [respo.comp.space :refer [=<]]
             [reel.comp.reel :refer [comp-reel]]
             [respo-md.comp.md :refer [comp-md]]
             [app.config :refer [dev?]]
             [app.schema :as schema]
-            [composer.core :refer [render-markup extract-templates]]
             [shadow.resource :refer [inline]]
             [cljs.reader :refer [read-string]]
             [clojure.string :as string])
@@ -21,13 +20,63 @@
  (reel)
  (let [store (:store reel)
        states (:states store)
-       templates (extract-templates (read-string (inline "composer.edn")))]
+       projects (read-string (inline "projects.edn"))]
    (div
     {:style (merge ui/global {:padding 40})}
-    (render-markup
-     (get templates "container")
-     {:data (read-string (inline "projects.edn")), :templates templates, :level 1}
-     (fn [d! op param options]
-       (when dev? (println "Action" op param (pr-str options)))
-       (case op :demo (println) :repo nil (do (println "Unknown op:" op)))))
+    (list->
+     {}
+     (->> projects
+          (map-indexed
+           (fn [idx category]
+             [idx
+              (div
+               {}
+               (div
+                {}
+                (<>
+                 (:title category)
+                 {:font-size 32,
+                  :font-family ui/font-fancy,
+                  :color (hsl 0 0 86),
+                  :font-weight 300}))
+               (list->
+                {}
+                (->> (:projects category)
+                     (map-indexed
+                      (fn [idx project]
+                        [idx
+                         (div
+                          {:style (merge
+                                   ui/row-middle
+                                   {:background-color (hsl 200 20 99),
+                                    :border (str "1px solid " (hsl 0 0 94)),
+                                    :display :inline-flex,
+                                    :margin 8,
+                                    :min-width 160,
+                                    :padding 8,
+                                    :vertical-align :top,
+                                    :cursor :pointer}),
+                           :on-click (fn [e d! m!]
+                             (set! (.-href js/location) (:ui project))),
+                           :class-name "touch-item"}
+                          (if (some? (:logo project))
+                            (img
+                             {:src (:logo project),
+                              :style {:width 40, :height 40, :margin-right 8}}))
+                          (div
+                           {:style ui/column}
+                           (<>
+                            (:title project)
+                            {:color (hsl 200 80 60),
+                             :font-size 16,
+                             :font-family ui/font-fancy})
+                           (a
+                            {:href (:repo project),
+                             :inner-text "repo",
+                             :target "_blank",
+                             :style {:text-decoration :none,
+                                     :color (hsl 200 40 70),
+                                     :line-height "16px",
+                                     :font-size 12},
+                             :on-click (fn [e d! m!] )})))])))))]))))
     (when dev? (cursor-> :reel comp-reel states reel {})))))
