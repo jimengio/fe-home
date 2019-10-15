@@ -59,6 +59,9 @@
                            :tab-index 0,
                            :on-click (fn [e d! m!]
                              (set! (.-href js/location) (:ui project))),
+                           :on-keydown (fn [e d! m!]
+                             (when (= 13 (:key-code e))
+                               (set! (.-href js/location) (:ui project)))),
                            :class-name "touch-item"}
                           (if (some? (:logo project))
                             (img
