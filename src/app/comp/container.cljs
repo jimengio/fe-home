@@ -56,6 +56,7 @@
                                     :padding 8,
                                     :vertical-align :top,
                                     :cursor :pointer}),
+                           :tab-index 0,
                            :on-click (fn [e d! m!]
                              (set! (.-href js/location) (:ui project))),
                            :class-name "touch-item"}
@@ -78,5 +79,6 @@
                                      :color (hsl 200 40 70),
                                      :line-height "16px",
                                      :font-size 12},
-                             :on-click (fn [e d! m!] )})))])))))]))))
+                             :on-click (fn [e d! m!] ),
+                             :tab-index -1})))])))))]))))
     (when dev? (cursor-> :reel comp-reel states reel {})))))
