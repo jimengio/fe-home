@@ -14,9 +14,6 @@
              {:title "Image Viewer",
               :repo "https://github.com/jimengio/image-viewer",
               :ui "http://fe.jimu.io/image-viewer/"}
-             {:title "Meson Display",
-              :repo "https://github.com/jimengio/meson-display",
-              :ui "http://fe.jimu.io/meson-display/"}
              {:title "Code Rule Editor",
               :repo "https://github.com/jimengio/code-rule-editor",
               :ui "http://fe.jimu.io/code-rule-editor/"}]}
