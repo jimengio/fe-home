@@ -16,7 +16,10 @@
               :ui "http://fe.jimu.io/image-viewer/"}
              {:title "Code Rule Editor",
               :repo "https://github.com/jimengio/code-rule-editor",
-              :ui "http://fe.jimu.io/code-rule-editor/"}]}
+              :ui "http://fe.jimu.io/code-rule-editor/"}
+             {:title "Doc Frame",
+              :repo "https://github.com/jimengio/doc-frame",
+              :ui "http://fe.jimu.io/doc-frame/"}]}
  {:title "UI Libraries",
   :projects [{:title "Jasmin UI",
               :repo "https://github.com/jimengio/jasmin-ui",
