@@ -10,7 +10,7 @@
     "build": "shadow-cljs clj-run build.main/build",
     "up": "yarn build-cdn && tiye-up",
     "page": "shadow-cljs clj-run build.main/page",
-    "ln": "cd target && rm -f entry && ln -s ../entry"
+    "ln": "cd target && rm -fv entry && ln -s ../entry"
   },
   "repository": {
     "type": "git",
