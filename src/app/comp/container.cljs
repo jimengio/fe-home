@@ -18,9 +18,8 @@
 (defeffect
  effect-focus
  ()
- ()
- (action el)
- (when (= action :update)
+ (action el *local)
+ (when (= action :mount)
    (let [target (.querySelector el ".touch-item")] (if (some? target) (.focus target)))))
 
 (defcomp
