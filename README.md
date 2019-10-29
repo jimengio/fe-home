@@ -26,7 +26,7 @@
 
 ### Workflow
 
-Workflow https://github.com/mvc-works/composer-workflow
+Workflow https://github.com/mvc-works/ts-workflow
 
 ### License
 
