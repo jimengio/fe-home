@@ -8,6 +8,7 @@
 | [code-rule-editor](https://github.com/jimengio/code-rule-editor)           | ![](https://img.shields.io/npm/v/@jimengio/code-rule-editor.svg?style=flat-square)      |
 | [doc-frame](https://github.com/jimengio/doc-frame)                         | ![](https://img.shields.io/npm/v/@jimengio/doc-frame.svg?style=flat-square)             |
 | [dropdown](https://github.com/jimengio/dropdown)                           | ![](https://img.shields.io/npm/v/@jimengio/dropdown.svg?style=flat-square)              |
+| [echarts-autofit](https://github.com/jimengio/echarts-autofit)             | ![](https://img.shields.io/npm/v/@jimengio/echarts-autofit.svg?style=flat-square)       |
 | [fa-icons](https://github.com/jimengio/fa-icons)                           | ![](https://img.shields.io/npm/v/@jimengio/fa-icons.svg?style=flat-square)              |
 | [flex-styles](https://github.com/jimengio/flex-styles)                     | ![](https://img.shields.io/npm/v/@jimengio/flex-styles.svg?style=flat-square)           |
 | [image-viewer](https://github.com/jimengio/image-viewer)                   | ![](https://img.shields.io/npm/v/@jimengio/image-viewer.svg?style=flat-square)          |
