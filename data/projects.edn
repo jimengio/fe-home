@@ -19,7 +19,10 @@
               :ui "http://fe.jimu.io/code-rule-editor/"}
              {:title "Doc Frame",
               :repo "https://github.com/jimengio/doc-frame",
-              :ui "http://fe.jimu.io/doc-frame/"}]}
+              :ui "http://fe.jimu.io/doc-frame/"}
+             {:title "Jimo Basics",
+              :repo "https://github.com/jimengio/jimo-basics",
+              :ui "http://fe.jimu.io/jimo-basics/"}]}
  {:title "UI Libraries",
   :projects [{:title "Jasmin UI",
               :repo "https://github.com/jimengio/jasmin-ui",
