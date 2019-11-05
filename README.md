@@ -13,6 +13,7 @@
 | [flex-styles](https://github.com/jimengio/flex-styles)                     | ![](https://img.shields.io/npm/v/@jimengio/flex-styles.svg?style=flat-square)           |
 | [image-viewer](https://github.com/jimengio/image-viewer)                   | ![](https://img.shields.io/npm/v/@jimengio/image-viewer.svg?style=flat-square)          |
 | [ipeca-ui](https://github.com/jimengio/ipeca-ui)                           | ![](https://img.shields.io/npm/v/@jimengio/ipeca-ui.svg?style=flat-square)              |
+| [jimo-basics](https://github.com/jimengio/jimo-basics)                     | ![](https://img.shields.io/npm/v/@jimengio/jimo-basics.svg?style=flat-square)           |
 | [jimo-icons](https://github.com/jimengio/jimo-icons)                       | ![](https://img.shields.io/npm/v/@jimengio/jimo-icons.svg?style=flat-square)            |
 | [locales-editor](https://github.com/jimengio/locales-editor)               | ![](https://img.shields.io/npm/v/@jimengio/locales-editor.svg?style=flat-square)        |
 | [mescal-ui](https://github.com/jimengio/mescal-ui)                         | ![](https://img.shields.io/npm/v/@jimengio/mescal-ui.svg?style=flat-square)             |
