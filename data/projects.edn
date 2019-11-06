@@ -66,7 +66,10 @@
               :repo "https://github.com/jimengio/fontawesome-finder",
               :ui "http://fe.jimu.io/fontawesome-finder/"}]}
  {:title "Router",
-  :projects [{:title "Router Code Generator",
+  :projects [{:title "Ruled Router",
+              :repo "https://github.com/jimengio/ruled-router",
+              :ui "http://fe.jimu.io/ruled-router/"}
+             {:title "Router Code Generator",
               :repo "https://github.com/jimengio/router-code-generator",
               :ui "http://fe.jimu.io/router-code-generator/",
               :kind :router}
