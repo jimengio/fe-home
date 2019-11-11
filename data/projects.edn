@@ -15,6 +15,7 @@
  {
   :title "UI Libraries"
   :projects [
+   {:title "Jimo UI", :repo "https://github.com/jimengio/jimo-ui", :ui "http://fe.jimu.io/jimo-ui/"}
    {:title "Jasmin UI", :repo "https://github.com/jimengio/jasmin-ui", :ui "http://fe.jimu.io/jasmin-ui/"}
    {:title "Mescal UI", :repo "https://github.com/jimengio/mescal-ui", :ui "http://fe.jimu.io/mescal-ui/"}
    {:title "Ipeca UI", :repo "https://github.com/jimengio/ipeca-ui", :ui "http://fe.jimu.io/ipeca-ui/"}
