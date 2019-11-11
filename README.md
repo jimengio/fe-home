@@ -15,7 +15,7 @@
 | [ipeca-ui](https://github.com/jimengio/ipeca-ui)                           | ![](https://img.shields.io/npm/v/@jimengio/ipeca-ui.svg?style=flat-square)              |
 | [jimo-basics](https://github.com/jimengio/jimo-basics)                     | ![](https://img.shields.io/npm/v/@jimengio/jimo-basics.svg?style=flat-square)           |
 | [jimo-icons](https://github.com/jimengio/jimo-icons)                       | ![](https://img.shields.io/npm/v/@jimengio/jimo-icons.svg?style=flat-square)            |
-| [jimo-basics](https://github.com/jimengio/jimo-ui)                         | ![](https://img.shields.io/npm/v/@jimengio/jimo-ui.svg?style=flat-square)               |
+| [jimo-ui](https://github.com/jimengio/jimo-ui)                             | ![](https://img.shields.io/npm/v/@jimengio/jimo-ui.svg?style=flat-square)               |
 | [locales-editor](https://github.com/jimengio/locales-editor)               | ![](https://img.shields.io/npm/v/@jimengio/locales-editor.svg?style=flat-square)        |
 | [mescal-ui](https://github.com/jimengio/mescal-ui)                         | ![](https://img.shields.io/npm/v/@jimengio/mescal-ui.svg?style=flat-square)             |
 | [meson-form](https://github.com/jimengio/meson-form)                       | ![](https://img.shields.io/npm/v/@jimengio/meson-form.svg?style=flat-square)            |
