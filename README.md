@@ -29,7 +29,7 @@
 
 ### Workflow
 
-Workflow https://github.com/mvc-works/ts-workflow
+Workflow https://github.com/mvc-works/calcit-workflow
 
 ### License
 
