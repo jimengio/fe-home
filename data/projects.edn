@@ -3,13 +3,13 @@
   :title "Components"
   :projects [
    {:title "Meson Form", :repo "https://github.com/jimengio/meson-form", :ui "http://fe.jimu.io/meson-form/"}
+   {:title "Jimo Basics", :repo "https://github.com/jimengio/jimo-basics", :ui "http://fe.jimu.io/jimo-basics/"}
    {:title "Rough Table", :repo "https://github.com/jimengio/rough-table", :ui "http://fe.jimu.io/rough-table/"}
-   {:title "Dropdown", :repo "https://github.com/jimengio/dropdown", :ui "http://fe.jimu.io/dropdown/"}
    {:title "Meson Modal", :repo "https://github.com/jimengio/meson-modal", :ui "http://fe.jimu.io/meson-modal/"}
+   {:title "Dropdown", :repo "https://github.com/jimengio/dropdown", :ui "http://fe.jimu.io/dropdown/"}
    {:title "Image Viewer", :repo "https://github.com/jimengio/image-viewer", :ui "http://fe.jimu.io/image-viewer/"}
    {:title "Code Rule Editor", :repo "https://github.com/jimengio/code-rule-editor", :ui "http://fe.jimu.io/code-rule-editor/"}
    {:title "Doc Frame", :repo "https://github.com/jimengio/doc-frame", :ui "http://fe.jimu.io/doc-frame/"}
-   {:title "Jimo Basics", :repo "https://github.com/jimengio/jimo-basics", :ui "http://fe.jimu.io/jimo-basics/"}
   ]
  }
  {
@@ -25,10 +25,10 @@
   :title "DevTools"
   :projects [
    {:title "Locales Editor", :repo "https://github.com/jimengio/locales-editor", :ui "http://fe.jimu.io/locales-editor/"}
+   {:title "Shopfloor Simulator", :repo "https://github.com/jimengio/shopfloor-simulator", :ui "http://fe.jimu.io/shopfloor-simulator/", :logo "http://cdn.tiye.me/logo/shopfloor-simulator.png"}
    {:title "Rebase Hell", :repo "https://github.com/jimengio/rebase-hell", :ui "http://fe.jimu.io/rebase-hell/", :logo "http://cdn.tiye.me/logo/rebase-hell.png"}
    {:title "Dev Apps Switcher", :repo "https://github.com/jimengio/dev-switcher", :ui "http://fe.jimu.io/dev-switcher/", :logo "http://cdn.tiye.me/logo/dev-switcher.png"}
    {:title "VSCode Snippets", :repo "https://github.com/jimengio/jm-snippets", :ui "https://github.com/jimengio/jm-snippets"}
-   {:title "Shopfloor Simulator", :repo "https://github.com/jimengio/shopfloor-simulator", :ui "http://fe.jimu.io/shopfloor-simulator/", :logo "http://cdn.tiye.me/logo/shopfloor-simulator.png"}
    {:title "QRCode Shelf", :repo "https://github.com/jimengio/qrcode-shelf", :ui "http://fe.jimu.io/qrcode-shelf/"}
    {:title "Locales Picker", :repo "https://github.com/jimengio/locales-picker", :ui "http://fe.jimu.io/locales-picker/"}
   ]

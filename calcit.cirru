@@ -534,6 +534,11 @@
                                                                                                 :data $ {}
                                                                                                   |T $ {} (:type :leaf) (:by |rJG4IHzWf) (:at 1571138203439) (:text |:font-size) (:id |Jjc-bgJvDqleaf)
                                                                                                   |j $ {} (:type :leaf) (:by |rJG4IHzWf) (:at 1571138204808) (:text |12) (:id |iPRuvRYeB)
+                                                                                              |y $ {} (:type :expr) (:by |rJG4IHzWf) (:at 1576463962249)
+                                                                                                :data $ {}
+                                                                                                  |T $ {} (:type :leaf) (:by |rJG4IHzWf) (:at 1576463965922) (:text |:align-self) (:id |BZjw1lQVleaf)
+                                                                                                  |j $ {} (:type :leaf) (:by |rJG4IHzWf) (:at 1576463968920) (:text |:flex-start) (:id |_rvB2fWd)
+                                                                                                :id |BZjw1lQV
                                                                                       |y $ {} (:type :expr) (:by |rJG4IHzWf) (:at 1571138475673) (:id |qQbYmX5jR)
                                                                                         :data $ {}
                                                                                           |T $ {} (:type :leaf) (:by |rJG4IHzWf) (:at 1571138477475) (:text |:on-click) (:id |qQbYmX5jRleaf)
