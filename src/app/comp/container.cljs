@@ -89,7 +89,8 @@
                               :style {:text-decoration :none,
                                       :color (hsl 200 40 70),
                                       :line-height "16px",
-                                      :font-size 12},
+                                      :font-size 12,
+                                      :align-self :flex-start},
                               :on-click (fn [e d! m!] ),
                               :tab-index -1})))])))))]))))
      (when dev? (cursor-> :reel comp-reel states reel {})))]))
