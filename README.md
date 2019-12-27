@@ -20,6 +20,7 @@
 | [mescal-ui](https://github.com/jimengio/mescal-ui)                         | ![](https://img.shields.io/npm/v/@jimengio/mescal-ui.svg?style=flat-square)             |
 | [meson-form](https://github.com/jimengio/meson-form)                       | ![](https://img.shields.io/npm/v/@jimengio/meson-form.svg?style=flat-square)            |
 | [meson-modal](https://github.com/jimengio/meson-modal)                     | ![](https://img.shields.io/npm/v/@jimengio/meson-modal.svg?style=flat-square)           |
+| [project-stats](https://github.com/jimengio/project-stats)                 | ![](https://img.shields.io/npm/v/@jimengio/project-stats.svg?style=flat-square)         |
 | [rebase-hell](https://github.com/jimengio/rebase-hell)                     | ![](https://img.shields.io/npm/v/@jimengio/rebase-hell.svg?style=flat-square)           |
 | [rex](https://github.com/jimengio/rex)                                     | ![](https://img.shields.io/npm/v/@jimengio/rex.svg?style=flat-square)                   |
 | [rough-table](https://github.com/jimengio/rough-table)                     | ![](https://img.shields.io/npm/v/@jimengio/rough-table.svg?style=flat-square)           |
