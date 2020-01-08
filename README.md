@@ -27,6 +27,7 @@
 | [rough-table](https://github.com/jimengio/rough-table)                     | ![](https://img.shields.io/npm/v/@jimengio/rough-table.svg?style=flat-square)           |
 | [router-code-generator](https://github.com/jimengio/router-code-generator) | ![](https://img.shields.io/npm/v/@jimengio/router-code-generator.svg?style=flat-square) |
 | [ruled-router](https://github.com/jimengio/ruled-router)                   | ![](https://img.shields.io/npm/v/@jimengio/ruled-router.svg?style=flat-square)          |
+| [serve-json](https://github.com/jimengio/serve-json)                       | ![](https://img.shields.io/npm/v/@jimengio/serve-json.svg?style=flat-square)            |
 | [shared-utils](https://github.com/jimengio/shared-utils)                   | ![](https://img.shields.io/npm/v/@jimengio/shared-utils.svg?style=flat-square)          |
 
 ### Workflow
