@@ -4,4 +4,4 @@
             :to "cdn/fe-home/"}
            {:from "dist/{index.html,manifest.json}"
             ; send to an index directory
-            :to "repo/jimengio/"}]}
+            :to "/web-assets/repo/jimengio/"}]}
