@@ -11,6 +11,7 @@
    {:title "Image Viewer", :repo "https://github.com/jimengio/image-viewer", :ui "http://fe.jimu.io/image-viewer/"}
    {:title "Code Rule Editor", :repo "https://github.com/jimengio/code-rule-editor", :ui "http://fe.jimu.io/code-rule-editor/"}
    {:title "Doc Frame", :repo "https://github.com/jimengio/doc-frame", :ui "http://fe.jimu.io/doc-frame/"}
+   {:title "3D Model Viewer", :repo "https://github.com/jimengio/3d-model-viewer", :ui "http://fe.jimu.io/3d-model-viewer/"}
   ]
  }
  {
