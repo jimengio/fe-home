@@ -4,6 +4,7 @@
 
 | Package                                                                    | Version                                                                                 |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [3d-model-viewer](https://github.com/jimengio/3d-model-viewer)             | ![](https://img.shields.io/npm/v/@jimengio/3d-model-viewer.svg?style=flat-square)       |
 | [api-base](https://github.com/jimengio/api-base)                           | ![](https://img.shields.io/npm/v/@jimengio/api-base.svg?style=flat-square)              |
 | [code-rule-editor](https://github.com/jimengio/code-rule-editor)           | ![](https://img.shields.io/npm/v/@jimengio/code-rule-editor.svg?style=flat-square)      |
 | [doc-frame](https://github.com/jimengio/doc-frame)                         | ![](https://img.shields.io/npm/v/@jimengio/doc-frame.svg?style=flat-square)             |
