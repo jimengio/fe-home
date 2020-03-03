@@ -33,6 +33,7 @@
    {:title "VSCode Snippets", :repo "https://github.com/jimengio/jm-snippets", :ui "https://github.com/jimengio/jm-snippets"}
    {:title "QRCode Shelf", :repo "https://github.com/jimengio/qrcode-shelf", :ui "http://fe.jimu.io/qrcode-shelf/"}
    {:title "Locales Picker", :repo "https://github.com/jimengio/locales-picker", :ui "http://fe.jimu.io/locales-picker/"}
+   {:title "Swagger Mon", :repo "https://github.com/jimengio/swagger-mon", :ui "http://fe.jimu.io/swagger-mon/"}
   ]
  }
  {
