@@ -43,6 +43,7 @@ Tooling:
 | [project-stats](https://github.com/jimengio/project-stats)                 | ![](https://img.shields.io/npm/v/@jimengio/project-stats.svg?style=flat-square)         |
 | [rebase-hell](https://github.com/jimengio/rebase-hell)                     | ![](https://img.shields.io/npm/v/@jimengio/rebase-hell.svg?style=flat-square)           |
 | [serve-json](https://github.com/jimengio/serve-json)                       | ![](https://img.shields.io/npm/v/@jimengio/serve-json.svg?style=flat-square)            |
+| [swagger-mon](https://github.com/jimengio/swagger-mon)                     | ![](https://img.shields.io/clojars/v/jimengio/swagger-mon.svg)                          |
 
 Deprecating:
 
