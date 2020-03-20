@@ -35,15 +35,15 @@ Libraries:
 
 Tooling:
 
-| Package                                                                    | Version                                                                                 |
-| -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [router-code-generator](https://github.com/jimengio/router-code-generator) | ![](https://img.shields.io/npm/v/@jimengio/router-code-generator.svg?style=flat-square) |
-| [doc-frame](https://github.com/jimengio/doc-frame)                         | ![](https://img.shields.io/npm/v/@jimengio/doc-frame.svg?style=flat-square)             |
-| [locales-editor](https://github.com/jimengio/locales-editor)               | ![](https://img.shields.io/npm/v/@jimengio/locales-editor.svg?style=flat-square)        |
-| [project-stats](https://github.com/jimengio/project-stats)                 | ![](https://img.shields.io/npm/v/@jimengio/project-stats.svg?style=flat-square)         |
-| [rebase-hell](https://github.com/jimengio/rebase-hell)                     | ![](https://img.shields.io/npm/v/@jimengio/rebase-hell.svg?style=flat-square)           |
-| [serve-json](https://github.com/jimengio/serve-json)                       | ![](https://img.shields.io/npm/v/@jimengio/serve-json.svg?style=flat-square)            |
-| [swagger-mon](https://github.com/jimengio/swagger-mon)                     | ![](https://img.shields.io/clojars/v/jimengio/swagger-mon.svg)                          |
+| Package                                                                    | Version                                                                                                                                      |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [router-code-generator](https://github.com/jimengio/router-code-generator) | ![](https://img.shields.io/npm/v/@jimengio/router-code-generator.svg?style=flat-square)                                                      |
+| [doc-frame](https://github.com/jimengio/doc-frame)                         | ![](https://img.shields.io/npm/v/@jimengio/doc-frame.svg?style=flat-square)                                                                  |
+| [locales-editor](https://github.com/jimengio/locales-editor)               | ![](https://img.shields.io/npm/v/@jimengio/locales-editor.svg?style=flat-square)                                                             |
+| [project-stats](https://github.com/jimengio/project-stats)                 | ![](https://img.shields.io/npm/v/@jimengio/project-stats.svg?style=flat-square)                                                              |
+| [rebase-hell](https://github.com/jimengio/rebase-hell)                     | ![](https://img.shields.io/npm/v/@jimengio/rebase-hell.svg?style=flat-square)                                                                |
+| [serve-json](https://github.com/jimengio/serve-json)                       | ![](https://img.shields.io/npm/v/@jimengio/serve-json.svg?style=flat-square)                                                                 |
+| [swagger-mon](https://github.com/jimengio/swagger-mon)                     | ![](https://img.shields.io/clojars/v/jimengio/swagger-mon.svg) ![](https://img.shields.io/npm/v/@jimengio/swagger-mon.svg?style=flat-square) |
 
 Deprecating:
 
