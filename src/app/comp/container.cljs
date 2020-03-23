@@ -4,7 +4,7 @@
             [respo-ui.core :as ui]
             [respo.core
              :refer
-             [defcomp cursor-> action-> list-> a <> div button textarea span img defeffect]]
+             [defcomp >> list-> a <> div button textarea span img defeffect]]
             [respo.comp.space :refer [=<]]
             [reel.comp.reel :refer [comp-reel]]
             [respo-md.comp.md :refer [comp-md]]
@@ -93,4 +93,4 @@
                                       :align-self :flex-start},
                               :on-click (fn [e d! m!] ),
                               :tab-index -1})))])))))]))))
-     (when dev? (cursor-> :reel comp-reel states reel {})))]))
+     (when dev? (comp-reel (>> states :reel) reel {})))]))
