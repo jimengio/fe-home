@@ -21,6 +21,7 @@ Libraries:
 | [dropdown](https://github.com/jimengio/dropdown)                 | ![](https://img.shields.io/npm/v/@jimengio/dropdown.svg?style=flat-square)         |
 | [echarts-autofit](https://github.com/jimengio/echarts-autofit)   | ![](https://img.shields.io/npm/v/@jimengio/echarts-autofit.svg?style=flat-square)  |
 | [fa-icons](https://github.com/jimengio/fa-icons)                 | ![](https://img.shields.io/npm/v/@jimengio/fa-icons.svg?style=flat-square)         |
+| [files-picker](https://github.com/jimengio/files-picker)         | ![](https://img.shields.io/npm/v/@jimengio/files-picker.svg?style=flat-square)     |
 | [flex-styles](https://github.com/jimengio/flex-styles)           | ![](https://img.shields.io/npm/v/@jimengio/flex-styles.svg?style=flat-square)      |
 | [image-viewer](https://github.com/jimengio/image-viewer)         | ![](https://img.shields.io/npm/v/@jimengio/image-viewer.svg?style=flat-square)     |
 | [jimo-basics](https://github.com/jimengio/jimo-basics)           | ![](https://img.shields.io/npm/v/@jimengio/jimo-basics.svg?style=flat-square)      |
