@@ -7,7 +7,7 @@
    {:title "Rough Table", :repo "https://github.com/jimengio/rough-table", :ui "http://fe.jimu.io/rough-table/"}
    {:title "Meson Modal", :repo "https://github.com/jimengio/meson-modal", :ui "http://fe.jimu.io/meson-modal/"}
    {:title "Dropdown", :repo "https://github.com/jimengio/dropdown", :ui "http://fe.jimu.io/dropdown/"}
-   {:title "QR Code Popup", :repo "https://github.com/jimengio/qrcode-popup", :ui "http://fe.jimu.io/qrcode-popup/"}
+   {:title "QR Code Popup", :repo "https://github.com/jimengio/qrcode-popup", :ui "https://fe.jimu.io/qrcode-popup/"}
    {:title "Image Viewer", :repo "https://github.com/jimengio/image-viewer", :ui "http://fe.jimu.io/image-viewer/"}
    {:title "Code Rule Editor", :repo "https://github.com/jimengio/code-rule-editor", :ui "http://fe.jimu.io/code-rule-editor/"}
    {:title "Doc Frame", :repo "https://github.com/jimengio/doc-frame", :ui "http://fe.jimu.io/doc-frame/"}
