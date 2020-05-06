@@ -30,7 +30,7 @@
    {:title "Locales Editor", :repo "https://github.com/jimengio/locales-editor", :ui "http://fe.jimu.io/locales-editor/"}
    {:title "Rebase Hell", :repo "https://github.com/jimengio/rebase-hell", :ui "http://fe.jimu.io/rebase-hell/", :logo "http://cdn.tiye.me/logo/rebase-hell.png"}
    {:title "VSCode Snippets", :repo "https://github.com/jimengio/jm-snippets", :ui "https://github.com/jimengio/jm-snippets"}
-   {:title "QRCode Shelf", :repo "https://github.com/jimengio/qrcode-shelf", :ui "http://fe.jimu.io/qrcode-shelf/"}
+   {:title "QRCode Shelf", :repo "https://github.com/jimengio/qrcode-shelf", :ui "http://fe.jimu.io/qrcode-shelf/", :logo "http://cdn.tiye.me/logo/qrcode-shelf.png"}
    {:title "Locales Picker", :repo "https://github.com/jimengio/locales-picker", :ui "http://fe.jimu.io/locales-picker/"}
    {:title "Swagger Mon", :repo "https://github.com/jimengio/swagger-mon", :ui "http://fe.jimu.io/swagger-mon/"}
   ]
