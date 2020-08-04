@@ -13,6 +13,7 @@
    {:title "Doc Frame", :repo "https://github.com/jimengio/doc-frame", :ui "http://fe.jimu.io/doc-frame/"}
    {:title "3D Model Viewer", :repo "https://github.com/jimengio/3d-model-viewer", :ui "http://fe.jimu.io/3d-model-viewer/"}
    {:title "Files Picker", :repo "https://github.com/jimengio/files-picker", :ui "http://fe.jimu.io/files-picker/"}
+   {:title "Meson Grid", :repo "https://github.com/jimengio/meson-grid", :ui "http://fe.jimu.io/meson-grid/"}
   ]
  }
  {
