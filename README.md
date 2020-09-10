@@ -25,6 +25,7 @@ Libraries:
 | [flex-styles](https://github.com/jimengio/flex-styles)           | ![](https://img.shields.io/npm/v/@jimengio/flex-styles.svg?style=flat-square)      |
 | [image-viewer](https://github.com/jimengio/image-viewer)         | ![](https://img.shields.io/npm/v/@jimengio/image-viewer.svg?style=flat-square)     |
 | [jimo-basics](https://github.com/jimengio/jimo-basics)           | ![](https://img.shields.io/npm/v/@jimengio/jimo-basics.svg?style=flat-square)      |
+| [jimo-hooks](https://github.com/jimengio/jimo-hooks)             | ![](https://img.shields.io/npm/v/@jimengio/jimo-hooks.svg?style=flat-square)       |
 | [jimo-icons](https://github.com/jimengio/jimo-icons)             | ![](https://img.shields.io/npm/v/@jimengio/jimo-icons.svg?style=flat-square)       |
 | [jmp-type](https://github.com/jimengio/jmp-type)                 | ![](https://img.shields.io/npm/v/@jimengio/jmp-type.svg?style=flat-square)         |
 | [meson-form](https://github.com/jimengio/meson-form)             | ![](https://img.shields.io/npm/v/@jimengio/meson-form.svg?style=flat-square)       |
@@ -34,6 +35,7 @@ Libraries:
 | [rex](https://github.com/jimengio/rex)                           | ![](https://img.shields.io/npm/v/@jimengio/rex.svg?style=flat-square)              |
 | [rough-table](https://github.com/jimengio/rough-table)           | ![](https://img.shields.io/npm/v/@jimengio/rough-table.svg?style=flat-square)      |
 | [ruled-router](https://github.com/jimengio/ruled-router)         | ![](https://img.shields.io/npm/v/@jimengio/ruled-router.svg?style=flat-square)     |
+| [ruled-validator](https://github.com/jimengio/ruled-validator)   | ![](https://img.shields.io/npm/v/@jimengio/ruled-validator.svg?style=flat-square)  |
 
 Tooling:
 
@@ -46,6 +48,7 @@ Tooling:
 | [rebase-hell](https://github.com/jimengio/rebase-hell)                     | ![](https://img.shields.io/npm/v/@jimengio/rebase-hell.svg?style=flat-square)                                                                |
 | [serve-json](https://github.com/jimengio/serve-json)                       | ![](https://img.shields.io/npm/v/@jimengio/serve-json.svg?style=flat-square)                                                                 |
 | [swagger-mon](https://github.com/jimengio/swagger-mon)                     | ![](https://img.shields.io/clojars/v/jimengio/swagger-mon.svg) ![](https://img.shields.io/npm/v/@jimengio/swagger-mon.svg?style=flat-square) |
+| [yapi-ts-generator](https://github.com/jimengio/yapi-ts-generator)         | ![](https://img.shields.io/npm/v/@jimengio/yapi-ts-generator.svg?style=flat-square)                                                          |
 
 Deprecating:
 
