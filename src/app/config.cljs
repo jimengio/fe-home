@@ -16,8 +16,8 @@
 
 (def site
   {:dev-ui "http://localhost:8100/main.css",
-   :release-ui "https://cdn.tiye.me/favored-fonts/main.css",
-   :cdn-url "https://cdn.tiye.me/fe-home/",
+   :release-ui "//fe.jimu.io/favored-fonts/main.css",
+   :cdn-url "/fe-home/",
    :title "Fe home page",
-   :icon "http://cdn.tiye.me/logo/jimeng-360x360.png",
+   :icon "https://fe.jimu.io/logo/jimeng-360x360.png",
    :storage-key "fe-home"})
